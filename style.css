@@ -72,3 +72,22 @@
 .star5_rating[data-rate="0.2"]:after{ width: 4%; }
 .star5_rating[data-rate="0.1"]:after{ width: 2%; }
 .star5_rating[data-rate="0"]:after{ width: 0%; }
+
+.v_line_fix {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1px;
+    height: 750px;
+    background-color: rgb(209, 202, 202);
+  }
+
+
+
+.row{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px
+}
